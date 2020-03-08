@@ -8,6 +8,16 @@ Express and Node for the backend
 MongoDB for the database
 Redux for state management between React components
 
+# Configuration
+
+set your database configuration config/dev.js for local developmenet.
+
+module.exports = {
+    mongodbURL: '',
+    secretOrKey: "secret"
+}
+
+# Run the Application
 // Install dependencies for server & client
 npm install && npm run client-install
 
